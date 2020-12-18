@@ -8,7 +8,7 @@ import { Routes } from './src/routes'
 
 export default function App() {
 
-  const [fontsLoaded] = useFonts([Anton_400Regular])
+  const [fontsLoaded] = useFonts({Anton_400Regular})
 
   if (!fontsLoaded) {
     return <AppLoading />
