@@ -1,7 +1,7 @@
 import React from 'react'
 import { View, Text } from 'react-native'
 
-// import { Container } from './styles'
+// import { Container } from './style'
 
 export const Home: React.FC = () => {
   return (
