@@ -3,8 +3,11 @@ import { useNavigation } from '@react-navigation/native'
 
 import tennis1 from './../../assets/detail.png'
 import { Dot } from '../../components/Dot'
+import { SizeButton } from '../../components/SizeButton'
 import { Container, Image, ContainerProduct, 
-  ContainerPrice, Price, ContainerTitle, Title, DotContainer } from './style'
+  ContainerPrice, Price, ContainerTitle, Title, DotContainer, 
+  ShoeSizeContainer, ShoeSize 
+} from './style'
 
 export const Details: React.FC = () => {
 
@@ -34,6 +37,19 @@ export const Details: React.FC = () => {
           <Dot color="#DDD"/>
           <Dot color="#000"/>
         </DotContainer>
+
+        <ShoeSizeContainer>
+          <ShoeSize>
+            <SizeButton active sizeShoes="37"/>
+            <SizeButton sizeShoes="38"/>
+            <SizeButton sizeShoes="39"/>
+            <SizeButton sizeShoes="42"/>
+            <SizeButton sizeShoes="44"/>
+          </ShoeSize>
+        </ShoeSizeContainer>
+
+        
+
       </ContainerProduct>
     </Container>
   )
