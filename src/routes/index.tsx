@@ -11,10 +11,18 @@ export const Routes: React.FC = () => {
 
   return (
     <NavigationContainer>
-      <Navigator headerMode="none">
+      <Navigator screenOptions={{
+        headerTintColor: '#FFF',
+        headerStyle: {
+          backgroundColor: '#222'
+        }
+      }}>
         <Screen 
           name="Home" 
           component={ Home }
+          options={{
+            headerShown: false
+          }}
         />
         <Screen 
           name="Details" 
