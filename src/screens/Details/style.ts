@@ -42,3 +42,14 @@ export const DotContainer = styled.View`
   flex-direction: row;
   margin-top: 7%;
 `
+
+export const ShoeSizeContainer = styled.View`
+  margin-top: 7%;
+`
+
+export const ShoeSize = styled.ScrollView.attrs({
+  horizontal: true,
+  showsHorizontalScrollIndicator: false
+})`
+  flex-direction: row;
+`
