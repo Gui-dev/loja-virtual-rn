@@ -53,3 +53,30 @@ export const ShoeSize = styled.ScrollView.attrs({
 })`
   flex-direction: row;
 `
+
+export const DetailsShoes = styled.View`
+  padding: 2% 0;
+  margin: 2% 0;
+`
+
+export const Description = styled.Text`
+  font-size: 16px;
+  line-height: 25px;
+  color: #FFF;
+  padding: 0 2%;
+  margin: 0 2%;
+`
+
+export const Category = styled.Text`
+  font-size: 16px;
+  line-height: 25px;
+  color: #FFF;
+  margin-left: 30px;
+`
+
+export const Material = styled.Text`
+  font-size: 16px;
+  line-height: 25px;
+  color: #FFF;
+  margin-left: 30px;
+`

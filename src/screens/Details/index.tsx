@@ -6,7 +6,7 @@ import { Dot } from '../../components/Dot'
 import { SizeButton } from '../../components/SizeButton'
 import { Container, Image, ContainerProduct, 
   ContainerPrice, Price, ContainerTitle, Title, DotContainer, 
-  ShoeSizeContainer, ShoeSize 
+  ShoeSizeContainer, ShoeSize, DetailsShoes, Description, Category, Material 
 } from './style'
 
 export const Details: React.FC = () => {
@@ -15,7 +15,7 @@ export const Details: React.FC = () => {
 
   useEffect(() => {
     navigation.setOptions({
-      headerTitle: 'Detalhes'
+      headerTitle: 'Nike Air Max'
     })
   }, [navigation])
 
@@ -48,7 +48,23 @@ export const Details: React.FC = () => {
           </ShoeSize>
         </ShoeSizeContainer>
 
-        
+        <DetailsShoes>
+
+          <Title>Nike Air Max</Title>
+          <Description>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Est, eligendi. Aut cupiditate nesciunt cum 
+            cumque quia rem eos saepe sed excepturi 
+            corrupti ipsam eius, nam magni libero quae a aliquam.
+          </Description>
+          <Category>
+            - Categoria: Amortecimento
+          </Category>
+          <Material>
+            - Material: mesh
+          </Material>
+
+        </DetailsShoes>
 
       </ContainerProduct>
     </Container>
