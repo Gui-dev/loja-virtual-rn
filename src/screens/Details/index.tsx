@@ -4,9 +4,10 @@ import { useNavigation } from '@react-navigation/native'
 import tennis1 from './../../assets/detail.png'
 import { Dot } from '../../components/Dot'
 import { SizeButton } from '../../components/SizeButton'
+import { Button } from '../../components/Button'
 import { Container, Image, ContainerProduct, 
   ContainerPrice, Price, ContainerTitle, Title, DotContainer, 
-  ShoeSizeContainer, ShoeSize, DetailsShoes, Description, Category, Material 
+  ShoeSizeContainer, ShoeSize, DetailsShoes, Description, Category, Material, Line 
 } from './style'
 
 export const Details: React.FC = () => {
@@ -66,7 +67,11 @@ export const Details: React.FC = () => {
 
         </DetailsShoes>
 
+        <Button title="COMPRAR"/>
+
+
       </ContainerProduct>
+      <Line />
     </Container>
   )
 }

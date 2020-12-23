@@ -80,3 +80,10 @@ export const Material = styled.Text`
   color: #FFF;
   margin-left: 30px;
 `
+
+export const Line = styled.View`
+  width: 100%;
+  margin: 2% 0;
+  border-width: 1px;
+  border-bottom-color: #DDD;
+`
